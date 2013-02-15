@@ -1,10 +1,12 @@
-Full-Stack Interview question
+Full-Stack Interview Question
 =============================
 
+Application
+-----------
 Build a simple canvas application as shown in the wireframe: (doc/wireframe.pdf)
 
 * When the app loads, an anonymous user account is generated in the database if there is no user cookie found in the system.
-	*If there is an anonymous user cookie than load the previously saved canvas for that user.
+	* If there is an anonymous user cookie than load the previously saved canvas for that user.
 * The canvas size is 800x600, excluding the toolbar. (Use the Bootstrap standard toolbar size)
 	* If the browser is sized smaller, show scrollbars in the canvas.	
 * User can choose the Shape dropdown and pick a square or circle for the shape. (Square is the default)
@@ -19,7 +21,8 @@ Build a simple canvas application as shown in the wireframe: (doc/wireframe.pdf)
 * The canvas contents are saved every 30 seconds automatically in the anonymous users account.
 	* A Saving notice is shown.
 
-Use below frameworks/languages:
+Frameworks/languages:
+---------------------
 
 * Bootstrap for HTML/CSS 
 * Backbone.js and Javascript (or better yet Coffeescript)
