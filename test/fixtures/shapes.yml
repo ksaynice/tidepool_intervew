@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  shape: MyString
+  x: 
+  y: 
+  z: 
+  w: 
+  h: 
+  color: MyString
+
+two:
+  shape: MyString
+  x: 
+  y: 
+  z: 
+  w: 
+  h: 
+  color: MyString

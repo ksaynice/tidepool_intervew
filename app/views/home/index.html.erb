@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="row">
+    <div class="span9">
+      <div class="btn-toolbar">
+        <form id = "shape_menu" class="form-horizontal">
+          <fieldset>
+            <div class="control-group">
+                <label class="control-label">Shape:</label>
+              <div class="controls">
+                <select id="drop_shape">
+                  <option value="square">Square</option>
+                  <option value="circle">Circle</option>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+        </form>        
+        <form id = "color_menu" class="form-horizontal">
+          <fieldset>
+            <div class="control-group">
+                <label class="control-label">Color:</label>
+              <div class="controls">
+                <select id="drop_color">
+                  <option value="red">Red</option>
+                  <option value="blue">Blue</option>
+                  <option value="green">Green</option>
+                  <option value="yellow">Yellow</option>
+                  <option value="orange">Orange</option>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <ScrollViewer Height="100" Width="200">
+    <canvas id="canvas" width="800" height="600" style="border:1px solid #000000; overflow: auto">
+      Get a new browser!
+    </canvas>
+  </ScrollViewer>
+  
+  <div class="span8">
+    <div class="alert alert-success" style="display:none;">
+      <button type="button" class="close">&times;</button>
+      <strong>Saved!</strong> This canvas saved every 30s.
+    </div>
+  <div>Welcome! <%= current_user.id %> <%= current_user.email %></div>
+  </div>
+    
+  
+</div>
+
